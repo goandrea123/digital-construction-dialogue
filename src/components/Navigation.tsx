@@ -20,7 +20,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-xl font-heading font-bold text-slate-900">CALI</span>
-              <span className="text-primary ml-1 text-xl font-heading font-bold">Zeitgeist</span>
+              <span className="text-primary ml-1 text-xl font-heading font-bold">Zeitgeist Architecture</span>
             </Link>
           </div>
 
