@@ -9,15 +9,14 @@ const VideoGallery = () => {
           <Card className="overflow-hidden">
             <CardContent className="p-0">
               <div className="aspect-video">
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  playsInline
-                  controlsList="nodownload"
-                >
-                  <source src="/Synthesia video Andrea Gonzalez.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                {/* Replace the URL below with your YouTube or Vimeo embed URL */}
+                <iframe 
+                  className="w-full h-full"
+                  src="REPLACE_WITH_YOUR_VIDEO_URL" 
+                  title="Introduction to AI Architecture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                ></iframe>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-heading font-semibold mb-2">Introduction to AI Architecture</h3>
