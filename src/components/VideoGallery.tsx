@@ -12,8 +12,9 @@ const VideoGallery = () => {
                 <video 
                   className="w-full h-full object-cover"
                   controls
-                  src="/Synthesia video Andrea Gonzalez.mp4"
+                  preload="metadata"
                 >
+                  <source src="/Synthesia video Andrea Gonzalez.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
