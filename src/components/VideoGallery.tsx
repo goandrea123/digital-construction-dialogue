@@ -12,7 +12,8 @@ const VideoGallery = () => {
                 <video 
                   className="w-full h-full object-cover"
                   controls
-                  preload="metadata"
+                  playsInline
+                  controlsList="nodownload"
                 >
                   <source src="/Synthesia video Andrea Gonzalez.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -28,7 +29,6 @@ const VideoGallery = () => {
               </div>
             </CardContent>
           </Card>
-          {/* Add more video cards here as needed */}
         </div>
       </div>
     </section>
